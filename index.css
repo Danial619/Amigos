@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    text-decoration: none;
+    font-weight: unset;
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+}
+.main{
+    width: 100%;
+}
+
+body{
+    display: flex;
+    height: 100%;
+    min-height: 100vh;
+    background-color: rgb(226, 6, 157);
+}
+
+#bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 133, 246);
+    text-align: justify; 
+}
+
+#bar div{
+    padding: 1em;
+    font-size: 1.25em;
+    /* background-color: aqua; */
+}
+#bar-links a{
+    margin-left: 1em
+}
+
+#bar-links a:hover{
+    background-color: rgb(255, 255, 0);
+    color: black;
+}
+
+#bar-links2 a{
+    margin-left: 1em
+}
+
+#bar-links2 a:hover{
+    background-color: rgb(4, 255, 0);
+    color: black;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 1.25em;
+    width: 100%;
+}
+
+
+.lead{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+    justify-items: center;
+    width: 100%;
+}
+
+.content-header{
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+
+}
+.content-header2{
+    font-family: 'pacifico';
+    font-size: 2em;
+    width: 100%;
+    color: darkblue;
+    width: 100%;
+    justify-self: center;
+    text-align: center;
+}
+.center{
+    justify-self: center;
+    text-align: center;
+    align-self: center;
+    
+}
+
+.img-round{
+    border-radius: 30%;
+    width: 150px;
+    height: 150px;
+}
+
+#images{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding: 1.25em;
+    width: 100%;
+}
+#images2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.25em;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+.img-round2{
+    border-radius: 5%;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+}
+.img-round3{
+    border-radius: 5%;
+    width: 250px;
+    height: 50px;
+    margin: 3em;
+}
